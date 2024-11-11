@@ -55,6 +55,7 @@
 		})();
 		
 		</script>
+		<script src="/js/langchanger.js"></script>
 </head>
 
 <body class="position-relative" style="font-family: Handlee;font-weight:bold;">
@@ -112,25 +113,22 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>About Me</h2>
+						<h2 id="aboutMeTitle">About Me</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
 						<ul class="info">
-							<li><span class="first-block">Full Name:</span><span class="second-block">Wakkar
+							<li><span id="fullName" class="first-block">Full Name:</span><span class="second-block">Wakkar
 									Iliass</span></li>
-							<li><span class="first-block">Phone:</span><span class="second-block">+212 6 74 00 79
-									87</span></li>
-							<li><span class="first-block">Email:</span><span
+							
+							<li><span id="email" class="first-block">Email:</span><span
 									class="second-block">iliasswakkar.wip@gmail.com</span></li>
 							<!-- <li><span class="first-block">Website:</span><span class="second-block">www.yoursite.com</span></li> -->
-							<li><span class="first-block">Address:</span><span class="second-block">MAROC SKHIRAT LOT AL
-									FATH </span></li>
+							
 						</ul>
 					</div>
-					<div class="col-md-8">
-						<h2>About Me</h2>
+					<div id="aboutMeText" class="col-md-8">
 						<p>I am Iliass Wakkar, a dedicated web developer with a strong foundation in both front-end and
 							back-end technologies.
 							Proficient in HTML, CSS, JavaScript, PHP, MySQL, Node.js, C#, and Java, I create dynamic,
@@ -187,7 +185,7 @@
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>My Resume</h2>
+						<h2 id="resumeTitle">My Resume</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -195,17 +193,17 @@
 						<ul class="timeline">
 							<li class="timeline-heading text-center animate-box">
 								<div>
-									<h3>Experience</h3>
+									<h3 id="experienceTitle" >Experience</h3>
 								</div>
 							</li>
 							<li class="animate-box timeline-unverted">
 								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 								<div class="timeline-panel">
 									<div class="timeline-heading">
-										<h3 class="timeline-title">Final Year Project</h3>
-										<span class="company">University Mohammed V, Rabat — 2024</span>
+										<h3 id="experienceTitle1" class="timeline-title">Final Year Project</h3>
+										<span id="experiencelocalTime1" class="company">University Mohammed V, Rabat — 2024</span>
 									</div>
-									<div class="timeline-body">
+									<div id="experienceDescription1" class="timeline-body">
 										<p>
 											Responsible for handling API requests and managing data coming from the
 											front-end in a Node.js-based web application.
@@ -226,10 +224,10 @@
 								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 								<div class="timeline-panel">
 									<div class="timeline-heading">
-										<h3 class="timeline-title">Développeur Web</h3>
-										<span class="company">Freelance — 2023 </span>
+										<h3 id="experienceTitle2" class="timeline-title">Développeur Web</h3>
+										<span id="experiencelocalTime2" class="company">Freelance — 2023 </span>
 									</div>
-									<div class="timeline-body">
+									<div id="experienceDescription2" class="timeline-body">
 										<p>
 											Conception et développement de deux sites web dynamiques en utilisant HTML,
 											CSS, JavaScript, Tailwind CSS, PHP, et
@@ -274,8 +272,8 @@
 								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 								<div class="timeline-panel">
 									<div class="timeline-heading">
-										<h3 class="timeline-title">Engineering in Computer Science (MIAGE)</h3>
-										<span class="company">EMSI (Ecole Marocaine des Sciences de l'Ingénieur) —
+										<h3 id="EducationTitle1" class="timeline-title">Engineering in Computer Science (MIAGE)</h3>
+										<span id="Education" class="company">EMSI (Ecole Marocaine des Sciences de l'Ingénieur) —
 											2024-2026 currently</span>
 									</div>
 									<div class="timeline-body">
