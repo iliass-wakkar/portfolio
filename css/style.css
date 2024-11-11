@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -1308,5 +1309,21 @@ input[type="text"] {
   transform: translate(-50%, -50%);
   z-index: 10;
 }
-
+.langchanger {
+  padding: 10px;
+  z-index: 1;
+  right: 0;
+  position :fixed;
+  right: 15px;
+  top: 10px;
+  z-index: 1000;
+  border-radius: 50%;
+  border:1px solid rgba(255, 255, 255, 0);
+  width: 60px;
+  height: 60px;
+  background-color: rgba(226, 226, 226, 0.606);
+}
+.langchanger:focus{
+    border: 1px solid rgba(255, 255, 255, 0);
+}
 /*# sourceMappingURL=style.css.map */

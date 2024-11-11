@@ -4,5 +4,6 @@ const phone=document.getElementById("phone");
 const email=document.getElementById("email");
 const aboutMeText=document.getElementById("aboutMeText");
 const resumeTitle=document.getElementById("resumeTitle");
-const experienceTitle=document.getElementById("experienceTitle");
-
+const experienceTitle=document.getElementById("experienceTitle1");
+const experiencelocalTime1=document.getElementById("experiencelocalTime1");
+const experienceDescription=document.getElementById("experienceDescription1");
